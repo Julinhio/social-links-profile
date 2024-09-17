@@ -1,0 +1,80 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+    font-family: Inter;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-card {
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px;
+    border-radius: 10px;
+    width: 50vh;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        width: 90%;
+    }
+  }
+
+.name {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-btn {
+    background-color: hsl(0, 0%, 20%);
+    padding: 20px 100px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.social-btn:hover {
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+    background-color: hsl(75, 94%, 57%);
+}
+
+a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.social-btn:hover a {
+    color: hsl(0, 0%, 8%);
+}
+
+.attribution {
+    text-align: center;
+    margin: 20px;
+}
+
